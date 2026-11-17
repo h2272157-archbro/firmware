@@ -3,12 +3,12 @@
 #include "hal/inputs/buttons.h"
 #include <interface.h>
 
-#define SEL_BTN 34
+#define SEL_BTN 0
 
-#define DW_BTN 35
+#define DW_BTN 26
 #define L_BTN 13
-#define R_BTN 39
-#define UP_BTN 36
+#define R_BTN 27
+#define UP_BTN 32
 
 static DeviceButtons buttonsCfg() { return DeviceButtons{L_BTN, R_BTN, UP_BTN, DW_BTN, SEL_BTN}; }
 
